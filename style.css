@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 #banner {
-    background-image: url('../Html/photos/img1.jpg');
+    background-image: url('photos/img1.jpg');
     background-position: center;
     background-size: cover;
     height: 670px;
@@ -299,13 +299,13 @@ article {
     margin-left: 10px;
 }
 
-footer{ 
+footer {
     background-color: #1e1e11;
     justify-content: center;
     display: flex;
 }
 
-.footer_menu{ 
+.footer_menu {
     display: flex;
     flex: 1;
     color: #fff;
@@ -313,10 +313,10 @@ footer{
 
 .fm1,
 .fm2,
-.fm3{
-     flex: 1;
-     color: white;
-     padding: 20px;
+.fm3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
 }
 
 .fm1 {
@@ -324,7 +324,7 @@ footer{
 
 }
 
-.fm2{
+.fm2 {
     background-color: #0079c7;
 
 }
@@ -332,35 +332,36 @@ footer{
 .fm3 {
     background-color: #2b4c99;
 }
-.footer_area{ 
+
+.footer_area {
     display: flex;
     color: #fff;
     flex: 1;
     display: flex;
 }
 
-.footer_areaitem{ 
-    flex:1;
+.footer_areaitem {
+    flex: 1;
     color: #fff;
-      align-items: center;
+    align-items: center;
 
 }
 
-.flex-collum{ 
-    flex-direction:column;
+.flex-collum {
+    flex-direction: column;
     display: flex;
 
 
 }
 
-footer .winget_title_text{ 
+footer .winget_title_text {
     color: #fff;
     align-items: center;
     display: flex;
 
 }
 
-.footer-cop{ 
+.footer-cop {
     border-top: 1px solid #858585;
     height: 40px;
     line-height: 40px;
@@ -369,31 +370,31 @@ footer .winget_title_text{
     font-family: Arial;
 }
 
-.widget-box-footer{ 
+.widget-box-footer {
     display: flex;
 }
 
-footer{ 
+footer {
     height: 500px;
 }
 
-.newstext-2{
-    margin-top:20px;
+.newstext-2 {
+    margin-top: 20px;
     color: #fff;
     font-family: Arial;
     font-size: 9px;
-    
+
 }
 
-.newstext-2-cont{
-    margin-top:20px;
+.newstext-2-cont {
+    margin-top: 20px;
     color: #fff;
     font-family: Arial;
     font-size: 9px;
 }
 
-.text{ 
-    margin-top:20px;
+.text {
+    margin-top: 20px;
     color: #fff;
     font-family: Arial;
     font-size: 9px;
@@ -401,46 +402,150 @@ footer{
 }
 
 
-.text ul li{ 
-    margin-top:20px;
+.text ul li {
+    margin-top: 20px;
     color: #00c8ff;
     font-family: Arial;
     font-size: 9px;
     width: 200px;
 }
 
-.text-2{ 
-    margin-top:20px;
+.text-2 {
+    margin-top: 20px;
     color: #696969;
     font-family: Arial;
     font-size: 9px;
     width: 200px;
 }
 
-.text-sub{
+.text-sub {
     display: flex;
     align-items: center;
     margin-right: 10px;
 }
 
-.text-container{ 
-    margin-left:  50px;
+.text-container {
+    margin-left: 50px;
 }
 
-.text-contant{ 
+.text-contant {
     font-family: Arial;
     display: flex;
     color: #7e7e7e;
     font-size: 9px;
 }
 
-.text-contant-2{ 
+.text-contant-2 {
     font-family: Arial;
     display: flex;
     color: #fff;
     font-size: 9px;
 }
 
-.text li{
+.text li {
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    nav ul {
+        margin-left: 40px;
+        justify-content: center;
+     
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 9px;
+    }
+
+    #banner{ 
+       
+        display: flex;
+        width: 700px;
+
+    }
+
+    .banner-headline {
+        margin-left: 100px;
+        margin-bottom: 60px;
+    }
+
+    .banner-headline h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    .banner-headline h2 {
+        font-size: 13px;
+        width: auto;
+    }
+
+    .banner-options {
+        margin-left: 0;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .banner1,
+    .banner2,
+    .banner3 {
+        width: 100%;
+        height: 130px;
+        margin-top: 200px;
+    }
+
+    .read-more,
+    .read-more-2 {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 60%;
+        font-size: 12px;
+    }
+
+    #geral {
+        padding: 0 15px;
+    }
+
+    .winget_body {
+        width: 100%;
+    }
+
+    .newstext,
+    .text,
+    .text-2 {
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px 0;
+        width: 700px;
+
+    }
+
+    .footer_area {
+        flex-wrap: wrap;
+    }
+
+    .footer_areaitem {
+        margin-bottom: 20px;
+    }
+
+    .footer_menu {
+        flex-wrap: wrap;
+    }
+
+    .fm1, .fm2, .fm3 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
